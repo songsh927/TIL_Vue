@@ -9,6 +9,12 @@
     <router-link to="/checkbox">Checkbox</router-link> |
     <router-link to="/checkbox2">Checkbox2</router-link> |
     <router-link to="/radiobutton">Radiobutton</router-link> |
+    <router-link to="/attribute">Attribute</router-link> |
+    <router-link to="/class">Class</router-link> |
+    <router-link to="/class2">Class2</router-link> |
+    <router-link to="/style">Style</router-link> 
+    <br>
+    <router-link to="/list">List</router-link> |
 
   </nav>
   <router-view/>
