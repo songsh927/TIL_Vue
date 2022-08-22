@@ -12,6 +12,16 @@ import DataBindingClass from '../views/DataBindingClass.vue'
 import DataBindingClass2 from '../views/DataBindingClass2.vue'
 import DataBindingStyle from '../views/DataBindingStyle.vue'
 import DataBindingList from '../views/DataBindingList.vue'
+import RenderingVif from '../views/RenderingVif.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import EventKey from '../views/EventKey.vue'
+import Watch from '../views/WatchChange.vue'
+import Computed from '../views/ComputedChange.vue'
+import DataBindingList2 from '../views/DataBindingList2.vue'
+import NestedComponent from '../views/NestedComponent.vue'
+import ParentComponent from '../views/ParentComponent4.vue'
+
 
 const routes = [
   {
@@ -86,6 +96,51 @@ const routes = [
     path: '/list',
     name: 'list',
     component: DataBindingList
+  },
+  {
+    path: '/vif',
+    name: 'vif',
+    component: RenderingVif
+  },
+  {
+    path: '/eventclick',
+    name: 'eventclick',
+    component: EventClick
+  },
+  {
+    path: '/eventchange',
+    name: 'eventchange',
+    component: EventChange
+  },
+  {
+    path: '/eventkey',
+    name: 'eventkey',
+    component: EventKey
+  },
+  {
+    path: '/computed',
+    name: 'computed',
+    component: Computed
+  },
+  {
+    path: '/watch',
+    name: 'watch',
+    component: Watch
+  },
+  {
+    path: '/databindinglist2',
+    name: 'databindinglist2',
+    component: DataBindingList2
+  },
+  {
+    path: '/nested',
+    name: 'nested',
+    component: NestedComponent
+  },
+  {
+    path: '/childevent',
+    name: 'childevent',
+    component: ParentComponent
   }
 ]
 

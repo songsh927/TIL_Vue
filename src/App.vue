@@ -15,6 +15,16 @@
     <router-link to="/style">Style</router-link> 
     <br>
     <router-link to="/list">List</router-link> |
+    <router-link to="/vif">V-if</router-link> |
+    <router-link to="/eventclick">EventClick</router-link> |
+    <router-link to="/eventchange">EventChange</router-link> |
+    <router-link to="/eventkey">EventKey</router-link> |
+    <router-link to="/computed">ComputedChange</router-link> |
+    <router-link to="/watch">WatchChange</router-link> |
+    <br>
+    <router-link to="/databindinglist2">MockServerList</router-link> |
+    <router-link to="/nested">NestedComponent</router-link> |
+    <router-link to="/childevent">ChildComponentEvent</router-link> |
 
   </nav>
   <router-view/>
