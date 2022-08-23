@@ -25,6 +25,8 @@
     <router-link to="/databindinglist2">MockServerList</router-link> |
     <router-link to="/nested">NestedComponent</router-link> |
     <router-link to="/childevent">ChildComponentEvent</router-link> |
+    <br>
+    <router-link to="/store">Vuex</router-link> |
 
   </nav>
   <router-view/>

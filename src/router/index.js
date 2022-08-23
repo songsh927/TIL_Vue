@@ -20,8 +20,8 @@ import Watch from '../views/WatchChange.vue'
 import Computed from '../views/ComputedChange.vue'
 import DataBindingList2 from '../views/DataBindingList2.vue'
 import NestedComponent from '../views/NestedComponent.vue'
-import ParentComponent from '../views/ParentComponent4.vue'
-
+import ParentComponent from '../views/ParentComponent5.vue'
+import StoreAccess from '../views/StoreAccess.vue'
 
 const routes = [
   {
@@ -141,6 +141,11 @@ const routes = [
     path: '/childevent',
     name: 'childevent',
     component: ParentComponent
+  },
+  {
+    path: '/store',
+    name: 'store',
+    component: StoreAccess
   }
 ]
 
